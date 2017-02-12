@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'MSswift' do
+	use_frameworks!
+
+	pod 'AFNetworking', '~> 2.0'
+	pod 'SVProgressHUD'
+	pod 'RealmSwift'
+    pod 'RxSwift',    '~> 3.0'
+    pod 'RxCocoa',    '~> 3.0'
+end
