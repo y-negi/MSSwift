@@ -17,18 +17,13 @@ class LoginAPI: APIParameterProtocol {
     // 各API共通のパラメータ
     // プロトコルで定義している
     let url: String = "https://LoginAPI"
-    var errorType: Int = 0
+    var errorType: Error = APIError.NoError
     var errorMessage: String = ""
     var requestParameter: Dictionary<String, Any> = Dictionary<String, Any>()
     
-    /// リクエストパラメータをセット
-    ///
-    /// - Parameters:
-    ///   - id: ID
-    ///   - pass: PASSWORD
-    func setRequestParameter(id: String, pass: String) {
+    init(id: String, password: String) {
         requestId = id
-        requestPassword = pass
+        requestPassword = password
         requestParameter = ["id": requestId ?? "", "pass": requestPassword ?? ""]
     }
     

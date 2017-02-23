@@ -12,6 +12,7 @@ import RxCocoa
 
 class LoginViewController: UIViewController {
     let loginViewModel = LoginViewModel()
+    
     let disposeBag = DisposeBag()
     
     @IBOutlet weak var idTextField: UITextField!

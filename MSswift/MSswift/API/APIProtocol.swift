@@ -9,9 +9,17 @@
 
 import AFNetworking
 
+enum APIError: Error {
+    case NoError
+    case Parameter
+    case Network
+    case Timeout
+    case Unknown
+}
+
 protocol APIParameterProtocol: class {
     var url: String { get }
-    var errorType: Int { set get }
+    var errorType: Error { set get }
     var errorMessage: String { set get }
     var requestParameter: Dictionary<String, Any> { get }
     func setResponseParameter(responseObject: Dictionary<String, Any>)
@@ -37,7 +45,7 @@ extension APIParameterProtocol {
                         closure(self)
         },
                      failure: { (operation: AFHTTPRequestOperation?, error: Error) in
-                        self.errorType = 1
+                        self.errorType = APIError.Parameter
                         self.errorMessage = "えらー"
                         closure(self)
         })
