@@ -75,7 +75,6 @@
 		09D538CF1E44E7E800E25BE8 /* MSswift */ = {
 			isa = PBXGroup;
 			children = (
-				09D538F01E58475F00E25BE8 /* API */,
 				09D538E91E44EE6B00E25BE8 /* Model */,
 				09D538E81E44EE4900E25BE8 /* ViewModel */,
 				09D538E31E44ED1600E25BE8 /* ViewController */,
@@ -123,13 +122,6 @@
 				09D538F11E584B3500E25BE8 /* UserModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		09D538F01E58475F00E25BE8 /* API */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = API;
 			sourceTree = "<group>";
 		};
 		6557DA0CF2E3176E87AD7F7B /* Frameworks */ = {
@@ -184,6 +176,7 @@
 				TargetAttributes = {
 					09D538CC1E44E7E800E25BE8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XLM7K96PXP;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -404,15 +397,15 @@
 			baseConfigurationReference = EF2130449D5C85DAFA1DBE2C /* Pods-MSswift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuta Negishi (39XP8BVBD2)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chiyoda Tomonori (5RU2MLC2NC)";
+				DEVELOPMENT_TEAM = XLM7K96PXP;
 				INFOPLIST_FILE = MSswift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.negi.MSswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "92ffe396-9f2c-43ef-86c8-77a5064d064a";
-				PROVISIONING_PROFILE_SPECIFIER = develop;
+				PROVISIONING_PROFILE = "7cfc9a7a-bccc-4f1b-9930-65d5a3359169";
+				PROVISIONING_PROFILE_SPECIFIER = Team_DEV;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -422,15 +415,15 @@
 			baseConfigurationReference = 9FBA3BB1E50F29B5C2265342 /* Pods-MSswift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yuta Negishi (39XP8BVBD2)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chiyoda Tomonori (5RU2MLC2NC)";
+				DEVELOPMENT_TEAM = XLM7K96PXP;
 				INFOPLIST_FILE = MSswift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.negi.MSswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "92ffe396-9f2c-43ef-86c8-77a5064d064a";
-				PROVISIONING_PROFILE_SPECIFIER = develop;
+				PROVISIONING_PROFILE = "7cfc9a7a-bccc-4f1b-9930-65d5a3359169";
+				PROVISIONING_PROFILE_SPECIFIER = Team_DEV;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
