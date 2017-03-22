@@ -18,7 +18,6 @@
 		09D538EF1E44EF1D00E25BE8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D538EE1E44EF1D00E25BE8 /* LoginViewModel.swift */; };
 		09D538F21E584B3500E25BE8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D538F11E584B3500E25BE8 /* UserModel.swift */; };
 		09D538F41E584F2000E25BE8 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D538F31E584F2000E25BE8 /* ViewState.swift */; };
-		09D538F81E59A77800E25BE8 /* APIParameterLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D538F71E59A77800E25BE8 /* APIParameterLogin.swift */; };
 		8BEDC4AA7170B6BC448B693D /* Pods_MSswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA390B82BFDE453B9A6EC7F3 /* Pods_MSswift.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		09D538EE1E44EF1D00E25BE8 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		09D538F11E584B3500E25BE8 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		09D538F31E584F2000E25BE8 /* ViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
-		09D538F71E59A77800E25BE8 /* APIParameterLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIParameterLogin.swift; sourceTree = "<group>"; };
 		9FBA3BB1E50F29B5C2265342 /* Pods-MSswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSswift/Pods-MSswift.release.xcconfig"; sourceTree = "<group>"; };
 		AA390B82BFDE453B9A6EC7F3 /* Pods_MSswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2130449D5C85DAFA1DBE2C /* Pods-MSswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSswift/Pods-MSswift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 			children = (
 				09D538E41E44EDD200E25BE8 /* APIProtocol.swift */,
 				09D538E51E44EDD200E25BE8 /* LoginAPI.swift */,
-				09D538F71E59A77800E25BE8 /* APIParameterLogin.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -269,7 +266,6 @@
 				09D538F21E584B3500E25BE8 /* UserModel.swift in Sources */,
 				09D538D31E44E7E800E25BE8 /* ViewController.swift in Sources */,
 				09D538EF1E44EF1D00E25BE8 /* LoginViewModel.swift in Sources */,
-				09D538F81E59A77800E25BE8 /* APIParameterLogin.swift in Sources */,
 				09D538E61E44EDD200E25BE8 /* APIProtocol.swift in Sources */,
 				09D538ED1E44EEEE00E25BE8 /* LoginViewController.swift in Sources */,
 				09D538F41E584F2000E25BE8 /* ViewState.swift in Sources */,
