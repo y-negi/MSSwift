@@ -30,6 +30,7 @@ extension APIParameterProtocol {
     /// POST通信
     ///
     /// - Parameter closure: レスポンスを呼び出し側に返すためのクロージャ
+    /// クロージャでは、循環参照に注意
     func postRequest(closure: @escaping (_ responseObject: Self) -> ()) {
         
         let manager:AFHTTPRequestOperationManager = AFHTTPRequestOperationManager()

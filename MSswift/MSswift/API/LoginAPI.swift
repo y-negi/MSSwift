@@ -21,7 +21,7 @@ class LoginAPI: APIParameterProtocol {
     var errorMessage: String = ""
     var requestParameter: Dictionary<String, Any> = Dictionary<String, Any>()
     
-    init(id: String, password: String) {
+    init(id: String = "", password: String = "") {
         requestId = id
         requestPassword = password
         requestParameter = ["id": requestId ?? "", "pass": requestPassword ?? ""]
